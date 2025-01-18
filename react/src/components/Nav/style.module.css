@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    margin-top: 32px;
+}
+
+.nav a {
+    font-family: manrope;
+    font-size: 18px;
+    padding: 30px 40px;
+    border: 1px solid #1c1c21;
+    font-weight: 500;
+    color: #AFB0B6;
+}
+
+.nav a:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.nav a:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.nav a:hover {
+    background-color: #1c1c21;
+    color: white;
+}
