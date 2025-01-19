@@ -1,6 +1,8 @@
+import Pictures from "./Pictures";
 import Ticker from "../Ticker";
-import TopMain from "../TopMain";
+import TopMain from "./TopMain";
 import style from "./style.module.css";
+import About from "./About";
 
 const Main = () => {
     const texts: string[] = [
@@ -16,6 +18,8 @@ const Main = () => {
         <main className={style.main}>
             <TopMain />
             <Ticker texts={texts} />
+            <Pictures />
+            <About />
         </main>
     )
 }

@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    height: 512px;
+    position: relative;
+    margin: 0 162px;
+}
+
+.photo_1 {
+    width: 520px;
+    height: 354px;
+}
+
+.photo_2 {
+    width: 577px;
+    height: 354px;
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 185px;
+}
+
+.photo_3 {
+    width: 653px;
+    height: 512px;
+    margin-left: 20px;
+}
+
+.photo_4 {
+    width: 390px;
+    height: 293px;
+    margin-left: 13px;
+}
+
+.photo_5 {
+    width: 390px;
+    height: 205px;
+    position: absolute;
+    margin-left: 1206px;
+    margin-top: 307px;
+}
+
+.photo_6 {
+    width: 170px;
+    height: 143px;
+    position: absolute;
+    margin-top: 369px;
+}
