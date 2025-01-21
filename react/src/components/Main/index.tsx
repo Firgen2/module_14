@@ -3,6 +3,8 @@ import Ticker from "../Ticker";
 import TopMain from "./TopMain";
 import style from "./style.module.css";
 import About from "./About";
+import Services from "./Services";
+import Porfolio from "./Portfolio";
 
 const Main = () => {
     const texts: string[] = [
@@ -20,6 +22,8 @@ const Main = () => {
             <Ticker texts={texts} />
             <Pictures />
             <About />
+            <Services />
+            <Porfolio />
         </main>
     )
 }

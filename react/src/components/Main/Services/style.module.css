@@ -1,0 +1,82 @@
+.services {
+    display: flex;
+    justify-content: center;
+    margin: 200px 162px;
+}
+
+.services_container {
+    max-width: 1596px;
+}
+
+.services_container img {
+    width: 773px;
+    height: 625px;
+    margin-left: 50px;
+}
+
+.services_container_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1c1c21;
+    margin-bottom: 80px;
+}
+
+.services_container_top > div {
+    margin-bottom: 50px;
+}
+
+.services_container_top_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.services_container_top_buttons > button {
+    margin-left: 30px;
+}
+
+.event {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event_container > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.event_container span {
+    font-family: manrope;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #797c86;
+}
+
+.event_container p {
+    font-family: manrope;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #797c86;
+    margin-bottom: 50px;
+}
+
+h5 {
+    font-family: manrope;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #cacace;
+    margin-bottom: 20px;
+}

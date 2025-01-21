@@ -5,7 +5,7 @@
   overflow: hidden; /* Скрываем выходящий контент */
   white-space: nowrap; /* Не переносим элементы */
   position: relative;
-  padding: 20px 0px;
+  padding: 20px 0;
   background-color: #1c1c21;
   border-bottom: 1px solid #32323a;
   border-top: 1px solid #32323a;
@@ -14,7 +14,7 @@
 .tickerItem {
   display: flex;
   align-items: center;
-  margin-right: 20px; /* Расстояние между элементами */
+  margin-left: 20px;
 }
 
 .ticker svg {
@@ -23,5 +23,26 @@
 }
 
 .tickerContent {
-  display: inline-flex; /* Располагаем элементы в строку */
+  display: flex;
+  position: relative; /* Позиционирование для размещения блоков друг за другом */
+  width: max-content; /* Растягиваем контейнер по содержимому */
+}
+
+.block {
+  display: flex;
+  animation: scroll linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Перемещаем на половину длины всего контента */
+  }
+}
+
+/* Сдвигаем блоки вправо на длину предыдущего */
+.block:not(:first-child) {
+  margin-left: auto; /* Размещаем блок сразу за предыдущим */
 }

@@ -1,11 +1,16 @@
-import style from "./style.module.css";
+import { FC } from 'react';
+import styles from './style.module.css';
 
-const Contact = () => {
-    return (
-        <button className={style.container}>
-            Contact Me
-        </button>
-    )
+interface Props {
+  text?: string;
 }
+
+const Contact: FC<Props> = ({ text = 'Contact Me' }) => {
+  return (
+    <button className={styles.container}>
+      {text}
+    </button>
+  );
+};
 
 export default Contact;

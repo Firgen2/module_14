@@ -5,22 +5,6 @@
     align-items: center;
 }
 
-.name {
-    font-family: manrope;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 110px;
-    color: #E4E4E6;
-}
-
-.text {
-    font-family: manrope;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 30px;
-    color: #62646C;
-}
-
 .text2 {
     display: flex;
     align-items: center;
@@ -29,21 +13,4 @@
     font-weight: 600;
     line-height: 80px;
     color: #FFFFFF;
-}
-
-.btn_lets {
-    padding: 18px 50px;
-    background-color: #4A2CED;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-.btn_lets:hover {
-    background-color: #5338ec;
-}
-
-.btn_lets svg{
-    width: 20px;
-    height: 20px;
 }

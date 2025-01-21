@@ -1,16 +1,16 @@
 .container {
-    color: #AFB0B6;
+    color: white;
     font-family: manrope;
     padding: 16px 24px;
     border-radius: 10px;
     margin-right: 40px;
     cursor: pointer;
-    background-color: #2F2F37;
+    background-color: #1C1C21;
     font-size: 18px;
     font-weight: 500;
+    line-height: 27px;
 }
 
 .container:hover {
-    background-color: #36363f;
-    color: white;
+    background-color: #212127;
 }

@@ -23,12 +23,48 @@ body {
 }
 
 button {
-    border: 0;
+    background-color: transparent; /* Убираем фон */
+    border: none; /* Убираем рамку */
+    padding: 0; /* Убираем внутренние отступы */
+    box-shadow: none; /* Убираем тень */
     border-radius: 0;
-    background: #ccc;
-  }
+}
 
 @font-face {
     font-family: "manrope";
     src: url("./fonts/manrope.ttf");
+}
+
+
+h1 {
+    font-family: manrope;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 110px;
+    color: #E4E4E6;
+}
+
+h2 {
+    font-family: manrope;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 80px;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: manrope;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #797c86;
+}
+
+h4 {
+    color: #cacace;
+    font-family: manrope;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-left: 10px;
 }

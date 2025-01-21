@@ -8,7 +8,7 @@ const Header = () => {
         <header className={style.header}>
             <Logo />
             <Nav />
-            <Contact />
+            <Contact text="Contact Me" />
         </header>
     )
 }

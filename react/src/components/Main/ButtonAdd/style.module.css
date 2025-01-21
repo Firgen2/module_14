@@ -1,0 +1,16 @@
+.btn_lets {
+    padding: 18px 50px;
+    background-color: #4A2CED;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn_lets:hover {
+    background-color: #5338ec;
+}
+
+.btn_lets svg{
+    width: 20px;
+    height: 20px;
+}

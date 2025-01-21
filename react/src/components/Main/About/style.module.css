@@ -1,7 +1,11 @@
 .about {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin: 200px 162px;
+}
+
+.about_container {
+    max-width: 1596px;
 }
 
 .about_container img {
@@ -17,25 +21,9 @@
     border-bottom: 1px solid #1c1c21;
 }
 
-.about_top p {
-    font-family: manrope;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 27px;
-    color: #797c86;
-}
-
-.about_top p > p {
-    font-family: manrope;
-    font-size: 58px;
-    font-weight: 600;
-    line-height: 80px;
-    color: #FFFFFF
-}
-
 .about_top button {
     padding: 16px 24px;
-    background-color: #1C1C21;
+    background-color: #1c1c21;
     color: white;
     font-family: manrope;
     font-size: 18px;
@@ -46,7 +34,7 @@
 }
 
 .about_top button:hover {
-    background-color: #2f2f38;
+    background-color: #212127;
 }
 
 .introduction {
@@ -54,4 +42,104 @@
     flex-direction: row;
     align-items: center;
     margin-top: 80px;
+}
+
+.introduction p {
+    color: #afb0b6;
+    font-family: manrope;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #1c1c21;
+}
+
+.introduction_right {
+    border: 1px solid #1c1c21;
+    margin-left: 30px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.introduction_top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.introduction_bottom {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contact_information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.introduction_bottom_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.introduction_bottom_info div {
+    flex-grow: 1;
+}
+
+.introduction_bottom_info span {
+    color: #afb0b6;
+    font-family: manrope;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 0px;
+}
+
+.introduction_bottom_info p {
+    color: #afb0b6;
+    font-family: manrope;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-top: 10px;
+    border: none;
+}
+
+.introduction_bottom_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.introduction_bottom_buttons span {
+    color: #afb0b6;
+    font-family: manrope;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 0px;
+}
+
+.introduction_bottom_buttons p {
+    color: #afb0b6;
+    font-family: manrope;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-top: 10px;
+    border: none;
+}
+
+.introduction_bottom_buttons_grow {
+    display: flex;
+    width: 100%;
+}
+
+.introduction_bottom_buttons_grow button{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 20px;
 }

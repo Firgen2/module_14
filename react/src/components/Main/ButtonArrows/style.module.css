@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1c1c21;;
+    border-radius: 50px;
+    max-width: 164px;
+    padding: 10px;
+}
+
+.container button {
+    padding: 22px 26px;
+    background-color: #1C1C21;
+    border-radius: 50px;
+    max-width: 62px;
+    max-height: 62px;
+    cursor: pointer;    
+}
+
+
+.container button:first-child {
+    margin-right: 16px;
+}
+
+.container button:hover {
+    background-color: #212127;
+}
+
+.container svg {
+    width: 9px;
+    height: 17px;
+}
