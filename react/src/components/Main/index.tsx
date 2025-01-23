@@ -7,6 +7,7 @@ import Services from "./Services";
 import Porfolio from "./Portfolio";
 import Faq from "./Faq";
 import Testimonials from "./Testimonials";
+import Name from "./Name";
 
 const Main = () => {
     const texts: string[] = [
@@ -28,6 +29,8 @@ const Main = () => {
             <Porfolio />
             <Faq />
             <Testimonials />
+            <Name />
+            <Ticker texts={texts} />
         </main>
     )
 }

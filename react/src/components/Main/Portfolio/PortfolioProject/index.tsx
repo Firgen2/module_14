@@ -9,7 +9,7 @@ interface Props {
 
 const PorfolioProject: FC<Props> = ({ imgSrc, text1, text2 }) => {
     return (
-        <div className={style.porfolio_project}>
+        <article className={style.porfolio_project}>
             <img src={imgSrc} alt="Portfolio Project Image" />
             <div className={style.porfolio_project_container}>
                 <div>
@@ -23,7 +23,7 @@ const PorfolioProject: FC<Props> = ({ imgSrc, text1, text2 }) => {
                     </svg>
                 </button>
             </div>
-        </div>
+        </article>
     );
 };
 

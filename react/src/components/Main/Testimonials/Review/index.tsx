@@ -34,7 +34,7 @@ const Review: FC<Props> = ({ text1, text2, stars, text3 }) => {
     }
 
     return (
-        <div className={style.review}>
+        <article className={style.review}>
             <div className={style.review_container_top}>
                 <div>
                     <span>{text1}</span>
@@ -49,7 +49,7 @@ const Review: FC<Props> = ({ text1, text2, stars, text3 }) => {
                 <p>{text3}</p>
             </div>
              
-        </div>
+        </article>
     );
 };
 

@@ -1,0 +1,10 @@
+.name {
+    display: flex;
+    justify-content: flex-end;
+    margin: 100px 162px;
+    font-family: manrope;
+    font-size: 300px;
+    line-height: 233px;
+    font-weight: 700;
+    color: #232329;
+}
