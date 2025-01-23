@@ -5,6 +5,8 @@ import style from "./style.module.css";
 import About from "./About";
 import Services from "./Services";
 import Porfolio from "./Portfolio";
+import Faq from "./Faq";
+import Testimonials from "./Testimonials";
 
 const Main = () => {
     const texts: string[] = [
@@ -24,6 +26,8 @@ const Main = () => {
             <About />
             <Services />
             <Porfolio />
+            <Faq />
+            <Testimonials />
         </main>
     )
 }

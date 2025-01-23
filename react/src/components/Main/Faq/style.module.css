@@ -1,44 +1,41 @@
-.porfolio {
+.faq {
     display: flex;
     justify-content: center;
     margin: 200px 162px;
 }
 
-.porfolio_container {
+.faq_container {
     max-width: 1596px;
 }
 
-.porfolio_container img {
+.faq_container img {
     width: 773px;
     height: 625px;
     margin-left: 50px;
 }
 
-.porfolio_container_top {
+.faq_container_top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #1c1c21;
-    margin-bottom: 80px;
-}
-
-.porfolio_container_top > div {
     margin-bottom: 50px;
 }
 
-.porfolio_container_top_buttons {
+.faq_container_top_buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.porfolio_container_top_buttons > button {
+.faq_container_top_buttons > button {
     margin-left: 30px;
 }
 
-.portofolio_container_view {
+.faq_container_view {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 50px;
+}
+
+.faq_container_view_left {
+    border-right: 1px solid #1c1c21;
 }

@@ -2,16 +2,14 @@ import Contact from "../../Header/Contact";
 import H2 from "../../Title/H2";
 import H3 from "../../Title/H3";
 import ButtonsArrows from "../ButtonArrows";
+import PorfolioProject from "./PortfolioProject";
 import style from "./style.module.css";
 
-const Porfolio = () => {
-    const texts:string[] = [
-        "Coverage for weddings, parties, corporate functions, and more.",
-        "Skilled photographers who know how to seize the moment.",
-        "A mix of candid and posed shots for a comprehensive story.",
-        "Quick turnaround for you to relive the day's highlights.",
-    ]
+import photo_img_9 from "../../../images/Image9.png"
+import photo_img_10 from "../../../images/Image10.png"
+import photo_img_11 from "../../../images/Image11.png"
 
+const Porfolio = () => {
     return (
         <section className={style.porfolio}>
             <div className={style.porfolio_container}>
@@ -26,7 +24,9 @@ const Porfolio = () => {
                     </div>
                 </div>
                 <div className={style.portofolio_container_view}>
-                    
+                    <PorfolioProject imgSrc={photo_img_9} text1="Faces of Resilience" text2="March 2022" />
+                    <PorfolioProject imgSrc={photo_img_10} text1="A Wedding Tale" text2="January 2020" />
+                    <PorfolioProject imgSrc={photo_img_11} text1="Product Elegance" text2="January 2020" />
                 </div>
             </div>
         </section>
