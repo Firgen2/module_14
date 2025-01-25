@@ -8,7 +8,6 @@ import Porfolio from "./Portfolio";
 import Faq from "./Faq";
 import Testimonials from "./Testimonials";
 import Name from "./Name";
-import Footer from "../Footer";
 
 const Main = () => {
     const texts: string[] = [
@@ -31,8 +30,7 @@ const Main = () => {
             <Faq />
             <Testimonials />
             <Name />
-            <Ticker texts={texts} />
-            <Footer />  
+            <Ticker texts={texts} /> 
         </main>
     )
 }
